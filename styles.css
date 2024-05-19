@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    background-image: url(bg-love-shape-img.avif);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: #d6b1da;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .cake {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 20px;
+  }
+  
+  .person {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 15px;
+  }
+  
+  .wishes {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .signed {
+    font-style: italic;
+  }
+  .hint {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: xx-small;
+    color: rgb(122, 121, 121);
+  }
+  
